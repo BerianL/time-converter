@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript Basics – Challenge</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"/>
+    <link rel="stylesheet" href="https://use.typekit.net/zgo6fle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+      <main>
+        <div class="hero h-[calc(100vh-52px)] bg-secondary">
+          <div class="hero-content text-center">
+            <div class="max-w-md">
+                <div class="card w-96 bg-neutral text-neutral-content">
+                    <div class="card-body">
+                        <h1 class="text-3xl font-bold mb-4">Time Conversion</h1>
+                        <p class="mb-4">Convert time units.</p>
+                        <div class="form-control text-accent-content">
+                            <div class="form-control w-full max-w-xs text-left">
+                              <label for="timeInput">Convert:</label>
+                                <select id="fromUnit" class="select select-bordered mb-2 select-secondary text-accent">
+                                  <option disabled selected>Select source time unit</option>
+                                    <option value="seconds">Seconds</option>
+                                    <option value="minutes">Minutes</option>
+                                    <option value="hours">Hours</option>
+                                    <option value="days">Days</option>
+                                    <option value="weeks">Weeks</option>
+                                    <option value="months">Months</option>
+                                    <option value="years">Years</option>
+                                </select>
+                                <label for="toUnit">To:</label>
+                                <select id="toUnit" class="select select-bordered mb-2 select-secondary text-accent mb-4">
+                                  <option disabled selected>Select target time unit</option>
+                                  <option value="seconds">Seconds</option>
+                                    <option value="minutes">Minutes</option>
+                                    <option value="hours">Hours</option>
+                                    <option value="days">Days</option>
+                                    <option value="weeks">Weeks</option>
+                                    <option value="months">Months</option>
+                                    <option value="years">Years</option>
+                                </select>
+                                <div class="form-control w-full max-w-xs text-center">
+                                    <button class="btn btn-outline btn-secondary">Calculate</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+        <footer class="footer-center items-center p-4 bg text-neutral-content center">
+            <p><a href="https://teamtreehouse.com/profiles/berianl">Berian Lowe</a></p>
+        </footer>
+      </main>
+    <script src="js/maths.js"></script>    
+  </body>
+</html>
