@@ -12,7 +12,7 @@ The Time Converter web app extends the initial concept of calculating the number
 
 ## Usage
 
-1. Access the application at [Time Converter App](https://berianlowe.com/time-converter).
+1. Access the application at [https://berianlowe.com/time-converter](https://berianlowe.com/time-converter).
 2. Choose the source time unit you want to convert from in the "Convert" dropdown.
 3. Select the target time unit you want to convert to in the "To" dropdown.
 4. Click the "Calculate" button to initiate the conversion process.
